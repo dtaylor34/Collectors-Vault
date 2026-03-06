@@ -210,6 +210,7 @@ Before tagging a new version:
 | Version | Date | Highlights |
 |---------|------|------------|
 | v1.0.0 | 2026-03-05 | Initial commit — 5 tabs, 18 comics, seed data, theme system |
+| v1.0.1 | 2026-03-05 | GIT_WORKFLOW, cursor rules, project plan, config updates |
 | v1.1.0 | TBD | AI Scan, Want List, Price Charts, Item Detail, Collection Sharing |
 | v1.2.0 | TBD | Edge Function, 3-free-scan tier, Haiku-first pricing |
 | v2.0.0 | TBD | Supabase backend live, real auth, real-time auctions |
