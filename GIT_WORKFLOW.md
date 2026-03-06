@@ -1,5 +1,22 @@
 # Radstash — Git & Version Control Workflow
 
+## Repository & remote
+
+**Canonical GitHub repo:** [github.com/dtaylor34/Radstash](https://github.com/dtaylor34/Radstash)
+
+Pushes from this project go to `origin` → `https://github.com/dtaylor34/Radstash.git`. To confirm or fix:
+
+```bash
+git remote -v
+# Should show: origin  https://github.com/dtaylor34/Radstash.git (fetch/push)
+
+# If it points elsewhere (e.g. after a rename), update it:
+git remote set-url origin https://github.com/dtaylor34/Radstash.git
+git push -u origin main
+```
+
+---
+
 ## Semantic Versioning
 
 We use **semver** (MAJOR.MINOR.PATCH):
